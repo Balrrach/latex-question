@@ -1,0 +1,70 @@
+{
+    //----------------EDITOR SETTINGS----------------
+    "editor.renderLineHighlight": "none",
+    
+    //-----------------SPELLWRIGHT------------------
+    "spellright.language": [
+        "es_ES"
+    ],
+    "spellright.notificationClass": "hint",
+    
+    
+    //----------------LATEX WORKSHOP----------------
+    "latex-workshop.latex.outDir": "../pdf", //Directorio de salida(pdf + synctex)
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Standard",
+            "tools": [
+                "pdflatex",
+                "biber",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                //"-bibtex-cond",
+                //"-pvc",
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-aux-directory=../build",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "-aux-directory=../build",
+                "--shell-escape",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "--output-directory=../build",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "plaintext"
+    ],
+}

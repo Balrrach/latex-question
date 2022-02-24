@@ -1,0 +1,123 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'roc2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{375bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{roc2_svg-tex.pdf}}%
+    \put(0.14,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{roc2_svg-tex.pdf}}%
+    \put(0.222,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{roc2_svg-tex.pdf}}%
+    \put(0.304,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{roc2_svg-tex.pdf}}%
+    \put(0.386,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{roc2_svg-tex.pdf}}%
+    \put(0.468,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{roc2_svg-tex.pdf}}%
+    \put(0.55,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{roc2_svg-tex.pdf}}%
+    \put(0.632,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{roc2_svg-tex.pdf}}%
+    \put(0.714,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{roc2_svg-tex.pdf}}%
+    \put(0.796,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{roc2_svg-tex.pdf}}%
+    \put(0.878,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{roc2_svg-tex.pdf}}%
+    \put(0.96,0.19){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.21){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.2798){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.3496){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.4194){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.4892){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.559){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.6288){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.6986){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.7684){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.8382){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{roc2_svg-tex.pdf}}%
+    \put(0.12,0.908){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{roc2_svg-tex.pdf}}%
+    \put(0.94,0.12){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}False Positive Rate\end{tabular}}}}%
+    \put(0.03,0.908){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}True Positive Rate\end{tabular}}}}}%
+    \put(0.682,0.46){\color[rgb]{0.12156863,0.46666667,0.70588235}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Decision Tree (0.844)}\end{tabular}}}}%
+    \put(0.682,0.41){\color[rgb]{1,0.49803922,0.05490196}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{KNN (0.588)}\end{tabular}}}}%
+    \put(0.682,0.36){\color[rgb]{0.17254902,0.62745098,0.17254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Neural Network (0.818)}\end{tabular}}}}%
+    \put(0.682,0.31){\color[rgb]{0.83921569,0.15294118,0.15686275}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Random Forest (0.927)}\end{tabular}}}}%
+    \put(0.682,0.26){\color[rgb]{0.58039216,0.40392157,0.74117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Naive Bayes (0.828)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{roc2_svg-tex.pdf}}%
+    \put(0.18,0.07){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Decision Tree\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{roc2_svg-tex.pdf}}%
+    \put(0.386,0.07){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}KNN\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{roc2_svg-tex.pdf}}%
+    \put(0.496,0.07){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Neural Network\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{roc2_svg-tex.pdf}}%
+    \put(0.722,0.07){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Random Forest\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{roc2_svg-tex.pdf}}%
+    \put(0.18,0.02){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Naive Bayes\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{roc2_svg-tex.pdf}}%
+    \put(0.374,0.02){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}random\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{roc2_svg-tex.pdf}}%
+    \put(0.14,0.94){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ROC Curve\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

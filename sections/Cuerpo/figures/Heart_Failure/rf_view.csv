@@ -1,0 +1,10 @@
+atributes,splits (level 0),splits (level 1),splits (level 2),candidates (level 0),candidates (level 1),candidates (level 2)
+ChestPain,25,26,64,31,52,123
+ST_Slope,23,36,50,23,49,117
+ExerciseAngina,19,18,27,27,60,120
+Cholesterol,12,25,34,35,53,87
+MaxHR,8,21,33,36,47,104
+Oldpeak,7,18,49,21,58,111
+Sex,2,21,31,21,65,118
+RestingBP,2,9,35,26,48,100
+FastingBS,2,8,25,27,51,105

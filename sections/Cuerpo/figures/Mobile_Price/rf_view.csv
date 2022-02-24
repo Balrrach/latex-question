@@ -1,0 +1,10 @@
+atributes,splits (level 0),splits (level 1),splits (level 2),candidates (level 0),candidates (level 1),candidates (level 2)
+ram,16,48,62,16,48,63
+battery_power,14,17,50,20,36,83
+px_height,14,15,29,21,42,71
+fc,12,18,25,24,42,86
+int_memory,12,16,42,24,38,99
+sc_w,8,16,26,28,45,76
+px_width,7,17,37,16,38,79
+mobile_wt,4,10,26,17,44,79
+clock_speed,3,5,14,21,35,71

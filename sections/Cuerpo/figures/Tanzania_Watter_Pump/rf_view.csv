@@ -1,0 +1,10 @@
+atributes,splits (level 0),splits (level 1),splits (level 2),candidates (level 0),candidates (level 1),candidates (level 2)
+quantity,23,20,22,24,32,61
+waterpoint_type,12,18,16,16,30,57
+quantity_group,11,16,22,13,31,66
+waterpoint_type_group,9,10,21,16,20,58
+extraction_type_group,8,14,32,17,25,72
+quality_group,8,6,19,22,32,77
+extraction_type_class,7,13,13,16,33,53
+extraction_type,5,22,32,10,33,67
+scheme_management,4,5,13,20,35,73

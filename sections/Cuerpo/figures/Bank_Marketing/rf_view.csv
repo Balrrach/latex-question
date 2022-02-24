@@ -1,0 +1,11 @@
+atributes,splits (level 0),splits (level 1),splits (level 2),candidates (level 0),candidates (level 1),candidates (level 2)
+pdays,20,20,35,22,36,85
+poutcome,20,18,17,21,33,76
+nr.employed,12,19,28,15,37,75
+euribor3m,11,16,23,17,47,83
+age,8,5,19,23,34,91
+month,6,14,25,15,43,67
+cons.conf.idx,5,13,22,15,43,92
+cons.price.idx,5,3,16,29,35,81
+duration,4,41,63,13,48,78
+emp.var.rate,3,12,15,17,37,60

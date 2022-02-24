@@ -1,0 +1,123 @@
+%%%Typography
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper, total={6in, 8.5in}]{geometry} %Models page geometry
+\usepackage[utf8]{inputenc} %Gives acces to UTF-8 characters
+
+%%%Languages
+%\usepackage[spanish, english]{babel}
+
+%%%Subfiles
+\usepackage{subfiles}
+\providecommand{\ip}{./figures} %Every file has its figures in it's directory(ip == image path)
+
+%%%Graphics
+\usepackage{graphicx} %Allows to set several grapgics paths
+\usepackage[labelsep=quad,indention=10pt]{subfig}
+\captionsetup*[subfigure]{position=bottom}
+\usepackage{comment} %Allows to use blocks of comments
+\usepackage{float} %Avoid reposition of pictures and related warnings
+\usepackage{lscape} %Allows to set landscape pages
+\usepackage{pdflscape} %Allows to set landscape pages
+\usepackage[dvipsnames]{xcolor}
+\usepackage[inkscapearea=page]{svg} %SVG pictures
+
+%%%Hyperlinks
+\usepackage{hyperref} %Allows the usage of Hyperlinks
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=RoyalBlue,
+	citecolor=orange
+}
+\urlstyle{same}
+
+%%%Bibliography
+\usepackage[style=verbose]{biblatex} %Allows the usage of a bibliography and cites
+\addbibresource{../bibliography/citations.bib}
+\addbibresource{../bibliography/references.bib}
+\setlength\bibitemsep{2.0\itemsep} %Stablishes bibliography item separation
+%\setlength{\bibsep}{0pt plus 0.3ex}
+%\bibliographystyle{plain}
+%\bibliographystyle{unsrt}
+
+%%%Math
+\usepackage{dsfont} %Math symbols
+\usepackage{amsmath} %Numbering ecuations, correct spacing around equals signs and other enhacements for mathematical construcst display
+\usepackage{amssymb} %More mathamtical symbols
+\usepackage{stmaryrd} %St Mary’s Road symbols for derivations and functional programming
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+
+%%%Pseudocode
+\usepackage{listings} %Allows pseudocodes
+\definecolor{cred}{rgb}{0.6,0,0} % for strings
+\definecolor{cgreen}{rgb}{0.25,0.5,0.35} % comments
+\definecolor{othergreen}{rgb}{0.0,0.55,0.0} % comments
+\definecolor{cpurple}{rgb}{0.5,0,0.35} % keywords
+\definecolor{cblue}{rgb}{0.25,0.35,0.75} % more comments
+\definecolor{corange}{rgb}{1.0,0.75,0.05} % functions
+\definecolor{bcolor}{rgb}{0.97,0.97,0.97} % color de fondo
+\lstset{language=C++,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{cred}\bfseries,
+	%identifierstyle=\color{cpurple},
+	stringstyle=\color{othergreen},
+	commentstyle=\color{cgreen},
+	morecomment=[s][\color{cblue}]{/*}{*/},
+	backgroundcolor=\color{bcolor},
+	numbers=left,
+	numberstyle=\tiny\color{black},
+	stepnumber=1,
+	numbersep=10pt,
+	tabsize=4,
+	showspaces=false,
+	showstringspaces=false
+}
+
+%%%Tables
+\usepackage{booktabs} %Tables enhacements
+\usepackage{pgfplotstable} %Allows to transform csv files to latex tables
+\pgfplotsset{compat=1.17}
+%\pgfplotstableset{sci, precision=3}
+\usepackage{colortbl}
+
+%%%Miscelaneous
+\usepackage{enumerate} %Enhaced enumerate enviroment
+\usepackage{changepage} %Allows to change paragraph margins
+\usepackage{titlesec} %Uniform titles style
+\usepackage{appendix} %Provides various ways of formatting the titles of appendices
+\setlength{\skip\footins}{1.5em} % Setting the distance of the text block from the footnotes 
+\usepackage[bottom]{footmisc}	% Forces footcites to be always at the bottom
+%\setlength{\parindent}{0pt} %Removal of indentation
+
+
+%%%Abstract
+\usepackage{abstract} %Enables abstract
+%Removes abstract title
+\renewcommand{\abstractname}{}
+\renewcommand{\absnamepos}{empty}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%
+
+%\includeonly{Title/Title}
+
+\begin{document}
+
+\subfileinclude{Title/Title.tex}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\subfileinclude{Cuerpo/Cuerpo.tex}
+
+\clearpage
+\addcontentsline{toc}{section}{Bibliografia}
+\begin{refsection}[../bibliography/references.bib]
+	\nocite{*}
+	\printbibliography
+\end{refsection}
+
+
+\end{document}
